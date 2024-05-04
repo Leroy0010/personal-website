@@ -140,7 +140,7 @@ button {
     text-decoration: none;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 721px) {
     .gif-div {
         width: 355.56px;
     }
