@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: aliceblue;
+            margin-bottom: 70px;
+        
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            font-family: cursive;
+        }
+        
+        h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #40514e;
+            font-size: 25px;
+            text-align: left;
+            width: 50%;
+            margin-top: 10px;
+            
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            margin-bottom: 50px;
+        }
+
+        li {
+            font-size: 23px;
+            color: #40514e;
+            width: 60%;
+            text-align: left;
+        }
+
+
+        .coding {
+            height: 220px;
+            width: 300px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns:  300px 250px;
+            grid-template-rows: 250px;
+            width: 50%;
+            row-gap: 50px;
+            column-gap: 40px;
+            height: 250px;
+        }
+
+        .description {
+        font-size: 18px;
+        font-family: sans-serif;
+        color: #40514e;
+        margin-top: 0;
+        width: 100%;
+        }
+
+        h4 {
+            color:  black;
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+            margin-top: 0;
+        }
+
+        a {
+            text-align: left;
+            font-size: 1.5rem;
+        }
+  
+
+        @media (max-width: 721px) {
+        .gif-div {
+            width: 355.56px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns:  1fr;
+            grid-template-rows: 200px 200px;
+            width: 50%;
+            row-gap: 50px;
+            column-gap: 20px;
+            height: auto;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .flex {
+            align-items: stretch;
+            justify-content: stretch;
+            width: 100%;
+        }
+
+        h2 {
+            text-align: justify;
+        }
+        body {
+            margin-left: 20px;
+        }
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="flex">
+        <h1>My Resume</h1>
+        <h2>Introduction</h2>
+        <p>I'm highly motivated and detail-oriented computer science student seeking to leverage my skills and knowledge
+        to secure a role as  a full-stack web developer, software developer, or data analyst.
+        </p>
+    </div>
+    
+    <div class="education flex">
+        <h2>Education</h2>
+        <p>I'm currently pursuing a Bachelor's degree in Computer Science, University Of Cape Coast, (2026)
+            Second-year student with a strong foundation in programming principles, data structures, and software development.
+        </p>
+    </div>
+
+    <!-- <div class="profession flex"></div> -->
+    <div class="skills flex">
+        <h2>Skills</h2>
+        <ul class="flex" style="margin-bottom: 50px;">
+            <li>Front-end web development (HTML, CSS, JavaScript, React)</li>
+            <li>Familiar with basic concepts of other programming languages which includes Python and C++.</li>
+            <li>Familiarity with GitHub and version control.</li>
+            <li>Strong problem-solving skills and logical thinking.</li>
+        </ul>
+        <div class="grid">
+            <div class="gif-div">
+                <img src="https://media.giphy.com/media/rhZr8u3cvxe0ksf1ej/giphy.gif?cid=790b7611p14n1xrxcmn6mlwx4parsldk5rvnggq3tdn5fyfy&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="" class="coding">
+            </div>
+            
+            <div>
+                <h4>Hobby</h4>
+                <p class="description">As a front-end web developer, I'm dedicated to creating innovative and user-friendly digital experiences. When I'm not studying or coding, you can find me playing FIFA or exploring new ways to improve my skills.
+                </p>
+            </div>  
+        </div>
+    </div>    
+    <div class="projects flex">
+        <h2>Projects</h2>
+        <ul class="flex" style="margin-bottom: 0px;">
+            <li class="list"><a href="https://leroy0010.github.io/counter/">Counter</a></li>
+            <li class="list"><a href="https://leroy0010.github.io/Birthday/">Birthday</a></li> 
+            <li class="list"><a href="https://leroy0010.github.io/Dicee/">Dicee</a></li>
+        </ul>
+    </div>
+
+    <div class="goals flex">
+        <h2>Goals</h2>
+        <ul class="flex" style="margin-bottom: 50px;">
+            <li>To secure a role as a full-stack web developer, software developer, or data analys.</li>   
+            <li>To continue learning and expanding my skill set in software development and data analysis.</li>
+            <li> To contribute to innovative projects and collaborate with like-minded individuals</li>
+        </ul>
+    </div>  
+
+</body>
+</html>
+
+
+
