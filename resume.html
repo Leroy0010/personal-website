@@ -92,22 +92,34 @@
   
 
         @media (max-width: 721px) {
-        .gif-div {
-            width: 355.56px;
-        }
-
+        
         .grid {
             display: grid;
-            grid-template-columns:  1fr;
-            grid-template-rows: 200px 200px;
-            width: 50%;
+            grid-template-columns:  90%;
+            grid-template-rows: auto auto;
+            width: 90%;
             row-gap: 50px;
             column-gap: 20px;
             height: auto;
         }
 
+        .description {
+            width: 60%px;
+        }
+
+        li {
+            text-align: justify;
+            width: 80%;
+        }
+
+        ul {
+            justify-content: stretch;
+            align-items: stretch;
+        }
+
         p {
             text-align: justify;
+            width: 95%;
         }
 
         .flex {
@@ -122,8 +134,20 @@
         body {
             margin-left: 20px;
         }
+        .skills {
+            height: auto;
+        }
+        .gif-div {
+            width: 90%;
         }
 
+        .coding {
+            width: 100%;
+        }
+
+        }
+
+        
     </style>
 </head>
 <body>
@@ -143,7 +167,7 @@
         </p>
     </div>
 
-    <!-- <div class="profession flex"></div> -->
+    
     <div class="skills flex">
         <h2>Skills</h2>
         <ul class="flex" style="margin-bottom: 50px;">
