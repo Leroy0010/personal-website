@@ -13,6 +13,19 @@ h1 {
     text-align: center;
     font-size: 4rem;
 }
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 h2 {
     color:  hsl(187, 86%, 70%);
@@ -67,6 +80,8 @@ h2 {
 
 .img {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .grid {
@@ -143,19 +158,38 @@ button {
 
 @media (max-width: 721px) {
     .flex {
-        
+        align-items: stretch;
+        justify-content: stretch;
+        width: 100%;
+    }
+
+    .top {
         width: 90%;
     }
 
-    .fifa-div {
-        width: 355.56px;
+    .middle div {
+        margin-left: 20px;
     }
+
+    .middle div {
+        margin-left: 20px;
+    }
+
+    .middle p {
+        margin-left: 20px;
+    }
+
+    .top-p {
+        width: 30%;
+        text-align: center;
+    }
+
 
     .grid {
         display: grid;
         grid-template-columns:  1fr;
-        grid-template-rows: 200px 200px;
-        width: 50%;
+        grid-template-rows: 300px 300px;
+        width: 320px;
         row-gap: 50px;
         column-gap: 20px;
         height: auto;
@@ -163,30 +197,61 @@ button {
 
     h2 {
         margin-bottom: 45px;
+        text-align: center;
+        font-size: 2.8rem;
+    }
+
+    .description {
+        margin-left: 0px !important;
+    }
+
+    
+    .profile-img {
+        align-self: center;
+    }
+    .grid-flex {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img {
+        justify-content: center;
+        align-items: center;
     }
 
     .p {
-        width: 70%;
+        
         color: #40514e;
+        text-align: justify;
+        width: 80%;
+        margin-left: 50px !important;
 
     }
 
     .p-in-touch {
-        width: 60%;
+        width: 55%;
         font-size: 1.2rem;
         color: #40514e;
+        margin-left: 30px !important;
+        
     }
 
     .get {
-        width: 55%;
+        width: 50%;
+        margin-left: 10px !important;
     }
 
     footer {
         margin-top: 70px;
     }
+    button {
+        width: 10rem;
+        margin-bottom: 70px;
+    }
 
     h1 {
-        text-align: justify;
+        
+        margin-left: 20px;
     }
 
     p {
@@ -195,11 +260,12 @@ button {
 
     .bottom {
         width: 100%;
+        height: 150px;
     }
 
     .middle {
         margin: 0px 0px 0px 0px;
-        width: 100%;
+        width: 80%;
     }
 
     .top {
@@ -207,7 +273,12 @@ button {
     }
 
     h4 {
-        width: 50%;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .footer {
+        text-align: center;
     }
 }
 
