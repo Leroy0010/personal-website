@@ -43,7 +43,8 @@ h2 {
     background-color: gray;
 }
 
-.middle {
+.p-in-touch {
+    width: 47%;
     
 }
 
@@ -71,11 +72,11 @@ h2 {
 .grid {
     display: grid;
     grid-template-columns:  300px 250px;
-    grid-template-rows: 250px 250px;
+    grid-template-rows: 250px;
     width: 50%;
     row-gap: 50px;
     column-gap: 40px;
-    height: 500px;
+
 }
 
 .coding {
@@ -141,7 +142,12 @@ button {
 }
 
 @media (max-width: 721px) {
-    .gif-div {
+    .flex {
+        
+        width: 90%;
+    }
+
+    .fifa-div {
         width: 355.56px;
     }
 
@@ -162,6 +168,7 @@ button {
     .p {
         width: 70%;
         color: #40514e;
+
     }
 
     .p-in-touch {
@@ -170,8 +177,37 @@ button {
         color: #40514e;
     }
 
+    .get {
+        width: 55%;
+    }
+
     footer {
         margin-top: 70px;
+    }
+
+    h1 {
+        text-align: justify;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .bottom {
+        width: 100%;
+    }
+
+    .middle {
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .top {
+        width: 100%;
+    }
+
+    h4 {
+        width: 50%;
     }
 }
 
